@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-buster
+FROM openjdk:8-jdk-buster
 
 ENV vb_version=8.0.1
 ENV st_version=8.0.1
