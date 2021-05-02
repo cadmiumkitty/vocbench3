@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-buster
 
-ENV vb_version=9.0.0
-ENV st_version=9.0
+ENV vb_version=9.1.0
+ENV st_version=9.1
 
 RUN curl -L https://bitbucket.org/art-uniroma2/vocbench3/downloads/vocbench3-${vb_version}-full.zip --output /tmp/vocbench3-${vb_version}-full.zip
 
